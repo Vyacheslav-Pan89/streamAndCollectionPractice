@@ -1,0 +1,5 @@
+Sample data:
+Some random numbers : 123456789;
+Some random chars: a b c d e f g h
+...
+mb CSV later?

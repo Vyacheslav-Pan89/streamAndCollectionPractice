@@ -1,0 +1,92 @@
+Task 1: Filtering and Collecting
+Create a list of integers and use the Stream API to filter out even numbers, then collect the results into a new list.
+
+Steps:
+
+Create a List<Integer>.
+Use stream(), filter(), and collect() to get a list of odd numbers.
+Print the resulting list.
+
+Task 2: Mapping and Summing
+Given a list of strings representing names, create a new list that contains the lengths of each name, and then calculate the total length of all names.
+
+Steps:
+
+Create a List<String> with several names.
+Use stream(), map(), and reduce() to find the total length of the names.
+Print the total length.
+
+Task 3: Finding Unique Elements
+Create a list of integers with duplicates and use a Set to find and print unique elements.
+
+Steps:
+
+Create a List<Integer> with some duplicate values.
+Use stream(), distinct(), and collect(Collectors.toSet()).
+Print the unique elements.
+
+Task 4: Grouping
+Given a list of names, group them by their first letter using a Map.
+
+Steps:
+
+Create a List<String> of names.
+Use stream(), collect(Collectors.groupingBy(...)) to group names by their first letter.
+Print the resulting map.
+
+Task 5: Sorting
+Create a list of objects representing students (with attributes like name and age) and sort them by age.
+
+Steps:
+
+Define a Student class with name and age.
+Create a List<Student> with several students.
+Use stream(), sorted(), and collect() to get a sorted list of students by age.
+Print the sorted list.
+
+Task 6: Parallel Processing
+Using a large list of integers, demonstrate how to find the sum of the elements using both sequential and parallel streams.
+
+Steps:
+
+Create a large List<Integer>.
+Calculate the sum using a sequential stream.
+Calculate the sum using a parallel stream.
+Print both results and compare the performance (optionally using System.nanoTime()).
+
+Task 7: Custom Collector
+Create a custom collector that collects strings into a single string, separated by commas.
+
+Steps:
+
+Create a List<String>.
+Use stream() and your custom collector to join the strings.
+Print the resulting string.
+
+Task 8: Nested Collection Processing
+Given a list of Map<String, List<Integer>> (where the key is a category and the value is a list of scores), find the average score for each category.
+
+Steps:
+
+Create a list of maps.
+Use the Stream API to calculate the average score for each category.
+Print the average scores.
+
+Task 9: Merging Two Lists
+Merge two lists of integers and remove duplicates.
+
+Steps:
+
+Create two List<Integer> with some overlapping elements.
+Use Stream.concat() to merge them and distinct() to remove duplicates.
+Collect the result into a new list and print it.
+
+Task 10: Creating a Custom Comparator
+Create a list of objects (e.g., employees with name and salary) and sort them using a custom comparator based on salary.
+
+Steps:
+
+Define an Employee class with name and salary.
+Create a List<Employee> with several employees.
+Use stream(), sorted() with a custom comparator to sort by salary.
+Print the sorted list.
